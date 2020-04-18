@@ -2,7 +2,7 @@
 
 const fs = require('fs');
 const { siteMapStatic } = require('./helpers/sitemap-static');
-const thisUrl = process.env.THIS_URL;
+const thisUrl = 'https://www.urbanmeadow.org';
 
 const staticJsArr = Array.isArray(siteMapStatic) ? siteMapStatic : [];
 

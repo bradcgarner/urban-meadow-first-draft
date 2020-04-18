@@ -150,7 +150,7 @@ app.prepare()
 
     server.listen(PORT, (err) => {
       if (err) throw err;
-      console.log(`GRD is running on port ${PORT}`);
+      console.log(`Urban Meadow is running on port ${PORT}`);
     });
   })
   .catch((ex) => {
